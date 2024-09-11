@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <audio href=""></audio>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DIVISIONS & DRAGONS </title>
+    <link rel="stylesheet" type="text/css" href="DnD.css"/>
+</head>
+<body>
+    <p id="m"></p>
+    <canvas id='canvas' width="600" height="600"></canvas>
+    <p id="p"></p>
+    <button id = "n" class="btn" onclick="inicio()" >NEXT</button>
+    <button id = "btn" class="btn" onclick="check()" >CHECK</button>
+    <button id="del" class="btn" onclick="irdebase()"> DELETE </button>
+    <input id="input1" inputmode="numeric" type="tel">
+    <form action="" method="" name="vform">
+        <input type="button" class="fbutton" name="-" value="-" id="-" onClick=addNegative(this); />
+        <input type="button" class="fbutton" name="1" value="1" id="1" onClick=addNumber1(this); />
+        <input type="button" class="fbutton" name="2" value="2" id="2" onClick=addNumber2(this); />
+        <input type="button" class="fbutton" name="3" value="3" id="3" onClick=addNumber3(this); />
+        <input type="button" class="fbutton" name="4" value="4" id="4" onClick=addNumber4(this); />
+        <input type="button" class="fbutton" name="5" value="5" id="5" onClick=addNumber5(this); />
+        <input type="button" class="fbutton" name="6" value="6" id="6" onClick=addNumber6(this); />
+        <input type="button" class="fbutton" name="7" value="7" id="7" onClick=addNumber7(this); />
+        <input type="button" class="fbutton" name="8" value="8" id="8" onClick=addNumber8(this); />
+        <input type="button" class="fbutton" name="9" value="9" id="9" onClick=addNumber9(this); />
+        <input type="button" class="fbutton" name="0" value="0" id="0" onClick=addNumber0(this); />
+        </form>
+
+    <script src="DnD.js"></script>
+</body>
+</html>
